@@ -4,6 +4,7 @@ En este repositorio se presentan los archivos asociados al proyecto de modelo de
 # Índice de documentos
 * `ModeloConAislamientoICA.pdf`: Documento técnico con descripción del modelo de compartimentos, el sistema de ecuaciones diferenciales asociados al mismo y resultados preliminares para ciudad de Bogotá con distintos escenarios de testeo y cuarentena.
 * `SEIRH_Class_ICA.py`: Script de python con solución numérica del modelo determinista.
+# Estructura del Código Principal `SEIRH_Class_ICA.py`
 La estructura de este archivo se basa en la clase `SEIRH()`, la cual compone las siguientes funciones:
 * `var_trans(self,beta_0,beta_1,beta_H,r,A,Movilidad)`: Permite definir las variables de transmisión fijas del modelo.
 * `beta(self,t)`: Calcula el valor de Beta dependiendo de las condiciones de  movilidad.
