@@ -1,4 +1,4 @@
-# SEIRHT-ICA
+# SEIRH-ICA
 
 En este repositorio se presentan los archivos asociados al proyecto de modelo determinista tipo SEIR con estados hospitalarios y aislamiento de infecciosos  basado en el proyecto: https://github.com/judmejiabe/SEIIHR/.
 # Índice de documentos
