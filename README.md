@@ -6,7 +6,7 @@ En este repositorio se presentan los archivos asociados al proyecto de modelo de
 * `SEIRH_Class_ICA.py`: Script de python con solución numérica del modelo determinista.
 
 # Descripción del modelo de compartimentos
-![Esquema](/img/Esquema.png?raw=true)
+![Esquema](/IMG/Esquema.png?raw=true)
 
 * S: Susceptibles
 * E: Expuestos
@@ -23,9 +23,9 @@ En este repositorio se presentan los archivos asociados al proyecto de modelo de
 * D: Fallecidos
 
 # Tasas de transición entre compartimentos
-![Tasas](/img/Tasas.png?raw=true)
+![Tasas](/IMG/Tasas.png?raw=true)
 
 # Sistema de ecuaciones diferenciales ordinarias
-![Ecuaciones](/img/Ec.png?raw=true)
+![Ecuaciones](/IMG/Ec.png?raw=true)
 
                 
