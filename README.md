@@ -22,9 +22,10 @@ En este repositorio se presentan los archivos asociados al proyecto de modelo de
 * R: Recuperados
 * D: Fallecidos
 
-** La descripción de las tasas junto con los valores utilizados en la simulación numérica se presentan en `Modelo-SEIRHT.pdf`.
+# Tasas de transición entre compartimentos
+![Tasas](/img/Tasas.png?raw=true)
 
 # Sistema de ecuaciones diferenciales ordinarias
-![Esquema](/img/Ec.png?raw=true)
+![Ecuaciones](/img/Ec.png?raw=true)
 
                 
