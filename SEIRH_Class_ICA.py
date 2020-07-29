@@ -87,8 +87,8 @@ class SEIRH():
 	def ODES(self,y,t):
 		S, E, IM, IC, ICA, IHR, IUR, IHD, IUD, IR, R, D, N = y
 		
-		dSdt = -S/float(N)*(self.beta(t)*(IM+IC+self.r*ICA)+self.beta_H*(IHR+IUD+IUR+IR))
-		dEdt =  S/float(N)*(self.beta(t)*(IM+IC+self.r*ICA)+self.beta_H*(IHR+IUD+IUR+IR)) - self.omega*E
+		dSdt = -S/float(N)*(self.beta(t)*(IM+IC+self.r*ICA)+self.beta_H*(IHR+IHD+IUD+IUR+IR))
+		dEdt =  S/float(N)*(self.beta(t)*(IM+IC+self.r*ICA)+self.beta_H*(IHR+IHD+IUD+IUR+IR)) - self.omega*E
 		dIMdt = self.delta_M*self.omega*E - self.gamma_M*IM
 		dICdt = (1-self.delta_M)*self.omega*E - self.sigma_C*IC
 		dICAdt = self.sigma_C*IC - self.sigma_CA*ICA
